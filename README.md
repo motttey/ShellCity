@@ -7,6 +7,7 @@ ncursesで動くSim Cityみたいなゲーム
 
 ##詳細
 Shell Cityはncursesライブラリを用いて作成したEA Japanによるシミュレーションゲーム「シムシティ」のパロディゲームである。
+
 Shell Cityの実行画面はマップ画面とメッセージや操作方法を表示する画面に別れ、ユーザはシェル上に展開されたマップ上にエリアを配置し、町を作成できる。
 
 #画面構成#
@@ -22,6 +23,7 @@ Shell Cityは以下の5つの画面から構成される。
 - Option Screen:コマンドの説明が表示される画面
 
 Shell Cityは主に予算と人口というパラメータをもとに、都市を発展させる。
+
 予算と人口は各エリアの隣接関係や全体的な比率に基づいて計算される。ただし、予算は歳入額が毎ターン加算される形で計算される。
 
 
@@ -67,7 +69,7 @@ Shell Cityでは、マップ画面に各エリアを配置する。
 
 #Commands List
 
-###Common Commands
+##Common Commands
 
 - q:終了 (on Start,Main,Gameover,Gameclear,Option)
 - s:開始 (on Start)
